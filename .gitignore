@@ -50,3 +50,6 @@ env/
 # 临时文件
 *.bak
 *.tmp
+
+# 同步脚本
+sync.sh
