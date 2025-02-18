@@ -71,10 +71,10 @@ cp .env.example .env
 使用 Docker Compose 运行时，可以通过以下命令查看日志：
 ```bash
 # 查看最近的日志
-docker-compose logs ddns
+docker compose logs ddns
 
 # 持续跟踪日志
-docker-compose logs -f ddns
+docker compose logs -f ddns
 ```
 其中 `ddns` 是 `docker-compose.yml` 中定义的服务名称
 
